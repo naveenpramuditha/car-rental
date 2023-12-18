@@ -74,7 +74,7 @@ ul{
 }
 
 .btn:hover{
-  color: #fff;
+  color: #fff !important;
   background: rgb(3, 8, 45);
 }
 

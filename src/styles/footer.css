@@ -1,0 +1,76 @@
+.footer{
+    background:  rgb(16, 191, 207);
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer__logo i{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer__logo span{
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__logo-content{
+    color: rgb(200, 247, 251);
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.quick__link{
+    border: none !important ;
+    background: transparent !important;
+}
+
+.quick__link a{
+    color: rgb(200, 247, 251);
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.quick__link a:hover{
+    color: rgb(199, 213, 2);
+}
+
+.footer__link-title{
+    color: #fff;
+}
+
+.office__info{
+    color:  rgb(200, 247, 251);
+    font-weight: 300;
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid #4c1c93;
+    border-radius: 50px;
+    background: rgb(16, 191, 207); 
+}
+
+.newsletter input{
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.newsletter span i{
+    color: #fff;
+}
+
+.section__description{
+    color: #bab2b2;
+    font-weight: 300;
+}
+
+.footer__bottom{
+    border-top: 1px solid #0aa3ea;
+}

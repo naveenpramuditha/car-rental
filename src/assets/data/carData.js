@@ -11,12 +11,12 @@ import img08 from "../all-images/cars-img/mercedes-offer.png";
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Axio",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Toyota Axio",
     imgUrl: img01,
-    model: "Model 3",
-    price: 50,
+    model: "Model 2016",
+    price: 5000,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
