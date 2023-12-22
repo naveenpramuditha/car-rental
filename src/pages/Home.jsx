@@ -8,8 +8,11 @@ import AboutSection from '../UI/AboutSection'
 import ServicesList from '../UI/ServicesList'
 import {CarItem }  from '../UI/CarItem'
 import BecomeDriverSection from '../UI/BecomeDriverSection'
+import Testimonial from '../UI/Testimonial'
 
 import carData from '../assets/data/carData'
+
+import BlogList from '../UI/BlogList'
 
 const Home = () => {
   return (
@@ -69,9 +72,37 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-
+ {/*-----------become a driver Section-------------*/}
     <BecomeDriverSection />
 
+
+ {/*-----------Testimonial Section-------------*/}
+
+     <section>
+      <Container>
+        <Row>
+          <Col lg='12' className='mb-4 text-center'>
+            <h6 className="section__subtitle">Our Clients says</h6>
+            <h2 className="section__title">Testimonials</h2>
+          </Col>
+          <Testimonial />
+        </Row>
+      </Container>
+     </section>
+     <br></br>
+
+     {/*-----------Bloglist Section-------------*/}
+     <section>
+      <Container>
+        <Row>
+          <Col lg='12' className='mb-5 text-center'>
+            <h6 className="section__subtitle">Explore Our Blogs</h6>
+            <h2 className="section__title">Latest Blogs</h2>
+          </Col>
+          <BlogList />
+        </Row>
+      </Container>
+     </section>
    </Helmet>
   )
 }

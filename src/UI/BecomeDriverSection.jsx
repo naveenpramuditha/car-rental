@@ -12,7 +12,7 @@ const BecomeDriverSection = () => {
                     <img src={driverImg} alt='' className='w-100' />
                 </Col>
 
-                <Col lg='6' md='6' sm='12'>
+                <Col lg='6' md='6' sm='12' className='become__driver-img'>
                     <h2 className='section__title become__driver-title'>
                         Do you want to Earn with US? Contact US
                     </h2>

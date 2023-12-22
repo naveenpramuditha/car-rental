@@ -5,7 +5,7 @@ import aboutImg from '../assets/all-images/cars-img/bmw-22449.png'
 
 const AboutSection = () => {
   return (
-    <section>
+    <section className='about__section'>
         <Container>
             <Row>
                 <Col lg='6' md='6'>
