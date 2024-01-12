@@ -6,6 +6,7 @@ import {Container , Row, Col} from 'reactstrap'
 import BecomeDriverSection from '../UI/BecomeDriverSection'
 import driveImg from '../assets/all-images/drive.jpg'
 import OurMembers from '../UI/OurMembers'
+import '../styles/about.css'
 
 const About = () => {
   return (

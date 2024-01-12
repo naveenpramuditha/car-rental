@@ -13,6 +13,11 @@ const navLinks = [
     path:'/about',
     display:'About' 
   },
+
+  {
+    path:'/cars',
+    display:'Cars'
+  },
   {
     path:'/blogs',
     display:'Blog' 
